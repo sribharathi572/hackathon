@@ -11,7 +11,7 @@ void main(){
       while(x!=0){
          sum=sum+x;
          c++;
-         x=x*(p/100);
+         x=(x*p)/100;
       }
       printf("sum of money is:%d\n",sum);
       printf("number of cups of coffee have to drink is:%d",c);
